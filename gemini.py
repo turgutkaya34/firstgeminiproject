@@ -19,7 +19,7 @@ def image_to_byte_array(image: Image) -> bytes:
 API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
-# 'TPP.png' uploud
+# 'TPP.png' upload
 logo_image = Image.open("/Users/turgutkaya/Gemini/TPP.png")
 
 
