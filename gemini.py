@@ -20,7 +20,7 @@ API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
 # 'TPP.png' upload
-logo_image = Image.open("/Users/turgutkaya/Gemini/TPP.png")
+logo_image = Image.open("/Users/turgutkaya/Gemini/Google-Gemini-AI-Logo.png")
 
 
 st.image(logo_image, width=200)
